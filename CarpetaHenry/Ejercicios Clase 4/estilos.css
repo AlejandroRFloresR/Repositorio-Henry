@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#fondo{
+    background-color: rgb(85, 91, 175);
+}
+#principal{ 
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+#pokedex{
+    display: flex;
+    justify-content: center;
+    margin:2em;
+}
+.titulos{
+    font-size: 2em;
+}
+.pokemon{
+    width: 16em;
+    margin-bottom: 2em;
+    
+}
+.tarjetas{
+    background-color: rgb(255, 255, 0);
+    border: 3px solid green;
+    width: 16em;
+    border-radius: 5%;
+    margin: 2em;
+    padding: 1em;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    transition: 1s;
+}
+.tarjetas:hover{
+    background-color: aquamarine;
+}
+#contenedor{
+    display: flex;
+    justify-content: space-around;
+}
